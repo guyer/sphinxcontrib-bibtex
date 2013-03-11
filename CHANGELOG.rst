@@ -1,6 +1,11 @@
 0.2.9 (in development)
 ----------------------
 
+* **BACKWARD INCOMPATIBLE**
+  The alpha style is now default, so citations are labelled in a way
+  that is more standard for Sphinx. To get the old behaviour back, add
+  ``:style: plain`` to your bibliography directives.
+
 * Upgrade to the latest pybtex-docutils to produce more optimal html output
   (specifically: no more nested ``<span>``\ s).
 
